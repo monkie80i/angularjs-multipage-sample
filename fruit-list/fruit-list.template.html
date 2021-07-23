@@ -1,0 +1,13 @@
+<p>Search: <input ng-model="$ctrl.value"></p>
+<p>sort by :<select ng-model="$ctrl.orderProp">
+<option value="name">Alphabetically</option>
+<option value="age">Newest</option>
+<option value="-age">oldest</option></select>
+</p>
+<ul>
+<li ng-repeat="fruit in $ctrl.fruits | filter:$ctrl.value | orderBy:$ctrl.orderProp">
+	<p>Name:{{fruit.name}}</p>
+	<p>Color:{{fruit.color}}</p>
+</li>
+</ul>
+<p>Order by {{$ctrl.orderProp}}</p>

@@ -1,0 +1,39 @@
+[
+	{
+		"name":"apple",
+		"age":3,
+		"color":"red"
+
+	},
+	{
+		"name":"pineapple",
+		"age":5,
+		"color":"yellow"
+
+	},
+	{
+		"name":"banana",
+		"age":1,
+		"color":"yellow"
+
+	},
+	{
+		"name":"jackfruit",
+		"age":7,
+		"color":"green"
+
+	},
+	{
+		"name":"pomegranet",
+		"age":6,
+		"color":"red"
+
+	},
+	{
+		"name":"pear",
+		"age":4,
+		"color":"yellow"
+
+	}
+
+]
